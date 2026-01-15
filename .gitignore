@@ -10,6 +10,7 @@ ENV/
 env/
 
 # Packaging
+
 build/
 dist/
 *.egg-info/
@@ -27,3 +28,7 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+
+# Учебные файлы Skypro
+src/intersections.py
