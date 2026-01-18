@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import Any
 
 
@@ -12,11 +13,11 @@ def filter_by_state(
     :param state: значение state для фильтрации (по умолчанию 'EXECUTED')
     :return: новый список операций с указанным state
     """
-    return [operation for operation in operations if operation.get("state") == state]
-
-
-from datetime import datetime
-from typing import Any
+    return [
+        operation
+        for operation in operations
+        if operation.get("state") == state
+    ]
 
 
 def sort_by_date(
