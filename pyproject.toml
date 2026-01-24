@@ -23,6 +23,14 @@ mypy = "^1.19"
 [tool.poetry.group.test.dependencies]
 pytest = "^9.0.2"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.2"
+pytest-cov = "^7.0.0"
+flake8 = "^7.3.0"
+mypy = "^1.19.1"
+isort = "^7.0.0"
+
 [tool.black]
 line-length = 119
 exclude = "\\.git|\\.venv"
