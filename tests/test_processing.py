@@ -53,4 +53,3 @@ def test_sort_by_date_same_dates_keeps_relative_order() -> None:
     # Python sorted() стабилен: элементы с одинаковым ключом сохраняют порядок
     result = sort_by_date(ops, descending=True)
     assert [op["id"] for op in result] == [1, 2, 3]
-
