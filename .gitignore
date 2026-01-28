@@ -18,7 +18,6 @@ dist/
 # Test / coverage / mypy
 .pytest_cache/
 .coverage
-htmlcov/
 .mypy_cache/
 
 # IDE
