@@ -38,3 +38,13 @@ from src.processing import sort_by_date
 
 sorted_operations = sort_by_date(operations)
 ```
+
+## Тестирование
+
+Запуск тестов:
+- poetry run pytest
+
+Покрытие и HTML-отчёт:
+- poetry run pytest --cov=src --cov-report=term-missing --cov-report=html
+
+HTML-отчёт генерируется в папку `htmlcov/`  
